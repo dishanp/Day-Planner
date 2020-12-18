@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ohQUy6_49LCQbLe537T9rfEfmHqIH2Npmw&usqp=CAU" type="image/icon type">
+    <link rel="stylesheet" href="todo.css">
+    
+</head>
+
+<body>
+    
+     <nav class="navbar navbar-inverse">
+        <p class="navbar-text"><b>&copy; To Do List by Dishan Purkayastha</b></p>
+      </nav>
+    
+      <div class="container">
+        <div class="jumbotron">
+            <h3><b>Add Tasks:</b></h3>
+            <div class="form-group">
+                <label for="focusedInput"></label>
+                <input class="form-control" id="ToDoInput" type="text" aria-label="Task Name">
+            </div>
+        
+            <a
+              class="btn btn-success btn-md"
+              href="#"
+              role="button"
+              id="flipbutton"
+              >Add</a>
+         
+        </div>
+      </div>
+
+      <div class="container" id="h">
+        <div class="jumbotron">
+          <h1>Today's Tasks: </h1>
+          <p id="show">
+
+          </p>
+  
+        <div class="ToDoContainer">
+           </div>
+        </div>
+      </div>
+    <script src="todo.js"></script>
+</body>
+</html>
